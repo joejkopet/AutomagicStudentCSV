@@ -13,11 +13,11 @@ Automates the creation of student G Suite accounts by using the CSV export from 
 
 Download the AutomagicStudentCSV.ps1 file.
 Right click - select edit - and make the following changes:
-  - Line 20: `Set-Location C:\GAM` needs to be changed to where your gam.exe is located. 
-  - Line 33: `$GoogleOU` needs to changed to the structure of your student OUs. I have listed /students/$Building/$GradYear as an example.
-  - Lines 36-37: `group` may need to be changed depending on what groups your students go into. In this example, there is a Students-All group and a Students-$GradYear group.
-  - Line 42: The location of your SIS CSV. Eg: "C:\test.csv"
-  - Line 46-55: May need editing based on how your SIS formats the CSV export. Eg: ‘Stu Grad Year’ might not be the field for the student’s graduation year.
+  - Line 22: `Set-Location C:\GAM` needs to be changed to where your gam.exe is located. 
+  - Line 35: `$GoogleOU` needs to changed to the structure of your student OUs. I have listed /students/$Building/$GradYear as an example.
+  - Lines 38-39: `group` may need to be changed depending on what groups your students go into. In this example, there is a Students-All group and a Students-$GradYear group.
+  - Line 44: The location of your SIS CSV. Eg: "C:\test.csv"
+  - Line 48-57: May need editing based on how your SIS formats the CSV export. Eg: ‘Stu Grad Year’ might not be the field for the student’s graduation year.
   - Line 61: `$Password` will need to be changed to your standard. 
 Download the CSV export from your SIS.
 Delete all values from your CSV file except for the headers. Add a test user in the fields. Eg:
