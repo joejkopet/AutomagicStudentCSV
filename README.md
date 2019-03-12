@@ -18,7 +18,7 @@ Right click - select edit - and make the following changes:
   - Lines 36-37: `group` may need to be changed depending on what groups your students go into. In this example, there is a Students-All group and a Students-$GradYear group.
   - Line 42: The location of your SIS CSV. Eg: "C:\test.csv"
   - Line 46-55: May need editing based on how your SIS formats the CSV export. Eg: ‘Stu Grad Year’ might not be the field for the student’s graduation year.
-  - Line 59: `$Password` will need to be changed to your standard. 
+  - Line 61: `$Password` will need to be changed to your standard. 
 Download the CSV export from your SIS.
 Delete all values from your CSV file except for the headers. Add a test user in the fields. Eg:
 
